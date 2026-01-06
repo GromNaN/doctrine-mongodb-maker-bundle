@@ -1,0 +1,32 @@
+{
+    "name": "doctrine/mongodb-maker-bundle",
+    "description": "Symfony MakerBundle for MongoDB ODM",
+    "type": "symfony-bundle",
+    "require": {
+        "php": "^8.4",
+        "ext-mongodb": "^2.1",
+        "doctrine/mongodb-odm-bundle": "^5.5",
+        "symfony/maker-bundle": "^1.65",
+        "symfony/http-kernel": "^7.4|^8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Doctrine\\Bundle\\MongoDBMakerBundle\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Doctrine\\Bundle\\MongoDBMakerBundle\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jérôme Tamarelle",
+            "email": "jerome@tamarelle.net"
+        }
+    ]
+}
